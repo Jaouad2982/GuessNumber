@@ -1,3 +1,4 @@
+// import both the random class and the scanner.
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,9 +7,11 @@ public class GuessClass {
 		int guess;
 		String trye;
 		Scanner input = new Scanner(System.in);
+		
 		Random random = new Random();
 		int randomNumber = 1 + random.nextInt(10);
-		
+		//loop until the user enter the wright guess, the number should be less is less than 10 and bigger than 0
+		// if the number does not meet the criteria,the user will be prompted again to enter another value
 		do {
 			System.out.println("Enter your guess");
 			guess = input.nextInt();
