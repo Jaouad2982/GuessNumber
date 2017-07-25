@@ -26,7 +26,7 @@ public class GuessClass {
 			} else {
 				System.out.println("Wrong");
 			}
-			System.out.println("You guessed too low, or too high, try again? (Y/N)");
+			System.out.println("try again? (Y/N)");
 			trye = input.nextLine();
 			if (trye.equalsIgnoreCase("n")) {
 				System.out.println("Thanks for playing have a good day");
