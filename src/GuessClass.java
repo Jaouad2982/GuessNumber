@@ -10,7 +10,7 @@ public class GuessClass {
 		
 		Random random = new Random();
 		int randomNumber = 1 + random.nextInt(10);
-		//loop until the user enter the wright guess, the number should be less is less than 10 and bigger than 0
+		//loop until the user enter the right guess, the number should be less is less than 10 and bigger than 0
 		// if the number does not meet the criteria,the user will be prompted again to enter another value
 		do {
 			System.out.println("Enter your guess");
